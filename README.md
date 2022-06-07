@@ -3,25 +3,19 @@ Repository for Big Data Master Class Practical Exercise.
 
 # Introduction 
 Practical Exercise for Big Data Master Class
-Members:
-1. Santos, Raymond
-2. Hiwatig, Airon Vincent
-3. Granados, Renz Anthony
+Members and their tasks:
+1. Santos, Raymond - Data ETL/ Sanitation
+2. Hiwatig, Airon Vincent - Azure Infrastracture Creation/ Configuration, Data Ingesting
+3. Granados, Renz Anthony - Documentation, Assist in ETL, Power BI Visualization
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
-
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
-
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+# Preparation/ Daily Tasks:
+1. Daily - Create Storage Account (Datalake Gen2, Create SQL Database, Create Databricks resource
+2. Daily - Upload datasets to blob containers (Datalake ingestion)
+3. Create Azure DevOps project (Create tasks, github repo, etc.)
+4. Created Country & Continents Dataset (Dataset mined from internet, saved into a .CSV file)
+5. Created Zodiac Sign dataset (Reference of dates from internet)
+6. Tested reading datasets in Azure Databricks
+7. Created connection configurations to get datasets from datalake; and store transformed/ sanitized tables into SQL database
+8. Saved transformed datasets into SQL database tables
+9. Created Power BI Visualization that connects to SQL database to import saved tables.
+10. Created Powerpoint presentation in preparation for jury
